@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="imagenes/Logo@2x.png" alt="logo"
+        class="logo">
+    </header>
+    <main>
+        <section class="section1">
+            <form>
+                <label for="mensaje"></label>
+                 <textarea id="mensaje" class="texto" placeholder="Ingrese el texto aqui"></textarea>
+            </form>
+            <p class="instrucciones">Solo letras minúsculas y sin acentos</p>
+            <div class="botones">
+                <button class="encriptar">Encriptar</button>
+                <button class="desencriptar">Desencriptar</button> 
+            </div>
+        </section>
+        <section class="section2">
+            <div class="final">
+                <form>
+                    <label for="respuesta"></label>
+                    <textarea  id="respuesta" class="resultado"></textarea>
+                </form>
+                <button class="copiar">Copiar</button>
+            </div>
+            <div class="cuadro">
+                <div class="textos">
+                    <img src="imagenes/Muñeco.png" alt="muneco"
+                    class="muneco"/>
+                    <h3>Ningún mensaje fue<br>encontrado</h3>
+                    <p class="recomendacion">Ingrese el texto que desees encriptar o<br> desencriptar</p> 
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="logica.js"></script> 
+</body>
+<footer></footer>
+</html>

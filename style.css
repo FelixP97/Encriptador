@@ -1,0 +1,154 @@
+header{
+    background: #F3F5FC;
+}
+
+main{
+    display: flex;
+    background: #F3F5FC;
+
+}
+button{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    padding: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+textarea{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400; 
+    line-height: 150%;
+}
+footer{
+    height: 210px;
+    background: #F3F5FC;
+}
+.logo{
+    width: 120px;
+    height: 48px;
+    margin: 40px 0 0 40px;
+}
+.section1{
+    background-color: aqua;
+    width: 70%;
+    position: relative;
+    background: #F3F5FC;
+    flex-wrap: nowrap;
+}
+.texto{
+    position: absolute;
+    top: 16.40%;
+    left: 23.61%;
+    margin: -25px 0 0 -25px; 
+    width: 40.06%;
+    height: 5.68%;
+    background: #F3F5FC;
+    border: none;
+    font-size: 32px;
+    color: #0A3871;
+}
+.instrucciones{
+    position: absolute;
+    top: 83.10%;
+    left: 23.61%;
+    margin: -25px 0 0 -25px;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8; 
+}
+.botones{
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    top: 86.42%;
+    left: 23.61%;
+    margin: -25px 0 0 -25px; 
+    
+}
+.encriptar{
+    background: #0A3871;
+    margin-right: 3%;
+    color: #FFFFFF;
+    width: 48%;
+    height: 100%;
+}
+.desencriptar{
+    background: #D8DFE8;
+    color: #0A3871;
+    width: 48%;
+    height: 100%;
+}
+
+.section2{
+    background-color: beige;
+    width: 30%;
+    background: #F3F5FC;
+    text-align: center;
+}
+.cuadro{
+    width: 400px;
+    height: 944px;
+    background: #FFFFFF;
+    border-radius: 32px;
+}
+
+.muneco{
+    position: absolute;
+    top: 27%;
+    left: 71.66%;
+}
+h3{
+    position: absolute;
+    top: 65%;
+    left: 74.66%;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #343A40;
+}
+.recomendacion{
+    position: absolute;
+    top: 73%;
+    left: 73.66%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #495057; 
+}
+.final{
+ display: none;
+}
+
+.resultado{
+    position: absolute;
+    left: 71.66%;
+    top: 10%;
+    width: 336px;
+    height: 65%;
+    font-size: 24px;
+    color: #495057;
+    border: none;
+}
+
+.copiar{
+    position: absolute;
+    left: 71.66%;
+    top: 885px;
+    width: 336px;
+}
+
+.ocultar{
+    display:none;
+}
+.mostrar{
+    display: contents;
+}
